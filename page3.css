@@ -1,0 +1,162 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #121212;
+    color: #ffffff;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+/* Header */
+.header {
+    background-color: #1f1f1f;
+    padding: 1rem 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo a {
+    font-size: 1.5rem;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.logo span {
+    color: #f39c12;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+}
+
+.nav-list li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1rem;
+}
+
+.nav-list li a:hover {
+    color: #f39c12;
+}
+
+/* Guide Profile */
+.guide-profile {
+    padding: 3rem 0;
+}
+
+.profile-header {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    margin-bottom: 3rem;
+}
+
+.profile-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid #f39c12;
+}
+
+.profile-info h1 {
+    font-size: 2rem;
+    color: #f39c12;
+}
+
+.rating {
+    margin: 1rem 0;
+    font-size: 1.2rem;
+}
+
+.profile-description {
+    margin-bottom: 3rem;
+}
+
+.profile-description h2 {
+    margin-bottom: 1rem;
+    color: #f39c12;
+}
+
+/* Reviews Section */
+.reviews-section {
+    margin-bottom: 3rem;
+}
+
+.reviews-section h2 {
+    margin-bottom: 2rem;
+    color: #f39c12;
+}
+
+.review {
+    margin-bottom: 1rem;
+    background-color: #1f1f1f;
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+/* Booking Section */
+.booking-section h2 {
+    margin-bottom: 2rem;
+    color: #f39c12;
+}
+
+.booking-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.booking-form label {
+    font-size: 1rem;
+}
+
+.booking-form input, .booking-form textarea {
+    padding: 0.8rem;
+    border-radius: 5px;
+    border: 1px solid #444;
+    background-color: #1f1f1f;
+    color: #ffffff;
+}
+
+.booking-form button {
+    background-color: #f39c12;
+    color: #ffffff;
+    padding: 0.8rem 1.5rem;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.booking-form button:hover {
+    background-color: #d35400;
+}
+
+/* Footer */
+.footer {
+    background-color: #1f1f1f;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+    color: #ffffff;
+    font-size: 0.9rem;
+}

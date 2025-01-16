@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plan Your Trip</title>
+    <link rel="stylesheet" href="page4.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <a href="index.html">GoLocal<span>Guide</span></a>
+            </div>
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="page2.html">Destinations</a></li>
+                    <li><a href="page3.html">Guides</a></li>
+                    <li><a href="page4.html">Booking</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="trip-planner">
+        <div class="container">
+            <h1>Plan Your Trip</h1>
+            <p>Create a customized travel experience with our local guides.</p>
+
+            <form action="#" class="trip-form">
+                <div class="form-section">
+                    <h2>Step 1: Choose Your Destination</h2>
+                    <select name="destination" id="destination" required>
+                        <option value="">Select a Destination</option>
+                        <option value="Kashmir">Kashmir</option>
+                        <option value="Uttrakhand">Uttrakhand</option>
+                        <option value="Banaras">Banaras</option>
+                        <option value="Otty">Otty</option>
+                    </select>
+                </div>
+
+                <div class="form-section">
+                    <h2>Step 2: Select Your Guide</h2>
+                    <select name="guide" id="guide" required>
+                        <option value="">Select a Guide</option>
+                        <option value="devansh">Devansh Singh</option>
+                        <option value="manas">Manas Rajput</option>
+                        <option value="vansh">Vansh Ramotra</option>
+                    </select>
+                </div>
+
+                <div class="form-section">
+                    <h2>Step 3: Additional Services</h2>
+                    <label>
+                        <input type="checkbox" name="services" value="transport"> Transportation (Cab Service)
+                    </label>
+                    <label>
+                        <input type="checkbox" name="services" value="food"> Local Food Experience
+                    </label>
+                    <label>
+                        <input type="checkbox" name="services" value="photography"> Photography Tour
+                    </label>
+                </div>
+
+                <div class="form-section">
+                    <h2>Step 4: Your Details</h2>
+                    <label for="name">Full Name</label>
+                    <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+                    <label for="date">Travel Date</label>
+                    <input type="date" id="date" name="date" required>
+                </div>
+
+                <div class="form-section">
+                    <button type="submit" class="btn btn-primary">Submit Your Plan</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 TravelLocal. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>

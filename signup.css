@@ -1,0 +1,138 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #1e1e2f, #121212);
+    color: #fff;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Signup Page Styles */
+.signup-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background: #18181f;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.5);
+    max-width: 1000px;
+    width: 100%;
+}
+
+.signup-form {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.signup-form h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: #f39c12;
+}
+
+.signup-form span {
+    color: #f39c12;
+}
+
+.signup-form p {
+    margin-bottom: 2rem;
+    font-size: 1rem;
+    color: #bbb;
+}
+
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+.form-group label {
+    display: block;
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+    color: #fff;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 0.8rem;
+    border: 1px solid #333;
+    border-radius: 5px;
+    background: #121212;
+    color: #fff;
+    font-size: 1rem;
+    outline: none;
+    transition: border-color 0.3s;
+}
+
+.form-group input:focus {
+    border-color: #f39c12;
+}
+
+.error-message {
+    color: #e74c3c;
+    font-size: 0.9rem;
+    margin-top: 0.3rem;
+    display: none;
+}
+
+.btn-primary {
+    padding: 0.8rem 1.5rem;
+    background-color: #f39c12;
+    color: #121212;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #d35400;
+}
+
+.redirect {
+    margin-top: 1.5rem;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.redirect a {
+    color: #f39c12;
+    text-decoration: none;
+}
+
+.redirect a:hover {
+    text-decoration: underline;
+}
+
+/* Hero Section */
+.signup-hero {
+    background: linear-gradient(135deg, #f39c12, #d35400);
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+}
+
+.signup-hero h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #fff;
+}
+
+.signup-hero p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
